@@ -37,7 +37,6 @@ function addTask(e) {
   taskList.appendChild(li);
   //Clear input
   taskInput.value = "";
-  console.log(li);
 
   e.preventDefault();
 }
